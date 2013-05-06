@@ -1,0 +1,73 @@
+.feedback-panel2{
+width:201px;
+height:50px;
+position:fixed;
+cursor:pointer;
+background-image:url(_images/front-login/anytroubleshoot.png);
+background-position:left top;
+background-repeat:no-repeat;
+top:75px; right:10px; _top:30px;
+}
+.feedback-panel2:hover{
+width:201px;
+height:50px;
+position:fixed;
+cursor:pointer;
+background-image:url(_images/front-login/anytroubleshoot-2.png);
+background-position:left top;
+background-repeat:no-repeat;
+top:75px; right:10px; _top:30px;
+}
+* html .feedback-panel2 {
+position: absolute;
+/* widget IE6 position fixed Top === Please DON'T REMOVE this code */!important
+bottom:auto;top:expression(eval(document.documentElement.scrollTop));
+
+/* widget IE6 position fixed Bottom === Please DON'T REMOVE this code */ !important
+position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+
+
+
+.feedback-panel3{
+width:201px;
+height:50px;
+position:fixed;
+cursor:pointer;
+background-image:url(_images/front-login/check-the-connectivity.png);
+background-position:left top;
+background-repeat:no-repeat;
+top:135px; right:10px; _top:30px;
+}
+.feedback-panel3:hover{
+width:201px;
+height:50px;
+position:fixed;
+cursor:pointer;
+background-image:url(_images/front-login/check-the-connectivity-2.png);
+background-position:left top;
+background-repeat:no-repeat;
+top:135px; right:10px; _top:30px;
+}
+* html .feedback-panel3 {
+position: absolute;
+/* widget IE6 position fixed Top === Please DON'T REMOVE this code */!important
+bottom:auto;top:expression(eval(document.documentElement.scrollTop));
+
+/* widget IE6 position fixed Bottom === Please DON'T REMOVE this code */ !important
+position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+/* PNG Fix for widget */
+* html img,
+* html .png{
+position:relative;
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+);
+
+}
